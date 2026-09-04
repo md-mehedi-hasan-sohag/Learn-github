@@ -1,0 +1,1 @@
+print("mehedi=kukur chana")
