@@ -1,4 +1,5 @@
-from evenodd import evenodd
+import evenodd from evenodd 
+import positive_negative from posneg
 
 print("Hello, World!")
 print("This is a sample Python script.")
@@ -11,4 +12,5 @@ except EOFError:
 
 x = int(user_input)
 print(evenodd(x))
+print(positive_negative(x))
 print("You entered:", x)
