@@ -1,5 +1,5 @@
-from evenodd import evenodd
-
+from evenodd import evenodd 
+from soulwizard_com import firstwebsite
 print("Hello, World!")
 print("This is a sample Python script.")
 
@@ -12,3 +12,4 @@ except EOFError:
 x = int(user_input)
 print(evenodd(x))
 print("You entered:", x)
+print(firstwebsite(input("Enter your name: ")))
